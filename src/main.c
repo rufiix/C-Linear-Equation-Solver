@@ -25,7 +25,7 @@ int main(int argc, char ** argv) {
 	if (x != NULL) {
 		res = backsubst(x,A,b);
         if(res != 0){
-            fprintf(stderr,"Błąd! Nie mogłem wykonać podstawiania wstecznego.\n");
+            fprintf(stderr,"Błąd! Nie mogłem wykonać podstawienia wstecznego.\n");
             return 0;
         }
 		printToScreen(x);
